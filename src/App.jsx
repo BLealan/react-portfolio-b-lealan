@@ -1,9 +1,10 @@
-import { useState } from 'react';
 import './App.css';
+import { Outlet } from 'react-router-dom';
+
 // Import components
-import Header from './components/HeaderNav/Header';
-import Navigation from './components/HeaderNav/Navigation';
-import Footer from './components/Footer';
+import Header from './components/UI/Header';
+import Navigation from './components/UI/Navigation';
+import Footer from './components/UI/Footer';
 
 // Display components via props on page
 function App() {
@@ -11,7 +12,9 @@ function App() {
     <div>
       <Header />
       <Navigation />
+      <Outlet />
       <Footer />
+    
     </div>
   );
 }
