@@ -9,12 +9,12 @@ import Footer from './components/UI/Footer';
 function App() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <Navigation />
       <main>
         <Outlet />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     
     </div>
   );

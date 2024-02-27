@@ -1,11 +1,12 @@
 import { useState } from 'react';
 
-import { validateEmail } from '../utils';
+import { validateEmail } from '../../utils/helpers';
 
-function Form() {
+function ContactForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [message, setMessage] =useState('');
+    const [message, setMessage] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
         const { target } = e;
@@ -72,4 +73,4 @@ function Form() {
       );
 }
 
-export default Form;
+export default ContactForm;
