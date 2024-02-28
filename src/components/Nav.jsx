@@ -1,3 +1,4 @@
+
 import { Link, useLocation } from 'react-router-dom';
 
 function Navigation() {
@@ -6,13 +7,6 @@ function Navigation() {
     return (
         <div className='navBar'>
                 <ul className="nav nav-tabs">
-                <li className="nav-item">
-                    <Link
-                    to="/"
-                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-                    >Home
-                    </Link>
-                </li>
                 <li className="nav-item">
                     <Link
                     to="/About"

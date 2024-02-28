@@ -9,7 +9,6 @@ import App from './App.jsx'
 import AboutPage from './pages/AboutPage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
-import HomePage from './pages/HomePage.jsx';
 import PortfolioPage from './pages/PortfolioPage.jsx';
 import ResumePage from './pages/Resume.jsx';
 
@@ -21,9 +20,6 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
-      },
-      {
         path: '/About',
         element: <AboutPage />,
       },
