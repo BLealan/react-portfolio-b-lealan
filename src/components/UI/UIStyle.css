@@ -1,13 +1,14 @@
 .header{
-    padding: 60px;
+    padding: 35px;
     text-align: center;
-    background: #7DBA84;
-    color: #FFCB47;
+    background: #0B2545;
+    color: #E0A800;
+    filter: blur(1.5px);
     font-size: 30px;
 }
 
 .nav-tabs {
-  background: #7DBA84;
+  background: #0B2545;
 }
 
 .nav-item {
@@ -49,8 +50,8 @@
   }
   
   .text {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #E0A800;
+    color: #EEF4ED;
     font-size: 16px;
     padding: 16px 32px;
   }
@@ -63,7 +64,7 @@
   position: fixed;
   height: 120px;
   width:100%;
-  background-color: #0A1045;
+  background-color: #0B2545;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -73,7 +74,7 @@
   .footerText {
     padding-top: 30px;
     padding-bottom: 15px;
-    color: #BDD5EA;
+    color: #EEF4ED;
   }
 
   .footer-icons {

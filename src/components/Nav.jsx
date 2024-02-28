@@ -10,7 +10,7 @@ function Navigation() {
                 <li className="nav-item">
                     <Link
                     to="/About"
-                    className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+                    className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
                     >About
                     </Link>
                 </li>
