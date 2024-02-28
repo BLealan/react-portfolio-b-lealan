@@ -1,3 +1,11 @@
+.header{
+    padding: 60px;
+    text-align: center;
+    background: #4A5043;
+    color: #FFCB47;
+    font-size: 30px;
+}
+
 .container {
     position: relative;
     width: 50%;
@@ -37,3 +45,22 @@
     font-size: 16px;
     padding: 16px 32px;
   }
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width:100%;
+  background-color: #0A1045;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+  .footerText {
+    padding-top: 40px;
+    color: #BDD5EA;
+  }
+}

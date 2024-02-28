@@ -1,8 +1,10 @@
 export default function Header(){
 
     return (
-        <header>
-                <h1> ben lealan PORTFOLIO</h1>
+        <div className="header">
+            <header>
+                    <h1> ben lealan PORTFOLIO</h1>
             </header>
+        </div>
     );
 }

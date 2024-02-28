@@ -1,4 +1,4 @@
-import '../components/UI/portfolioStyle.css'
+import '../components/UI/UIStyle.css'
 
 export default function PortfolioPage() {
     return (
