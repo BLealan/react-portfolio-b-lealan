@@ -1,11 +1,17 @@
-import '../components/UI/UIStyle.css'
+import '../components/UI/UIStyle.css';
+import passwordGenerator from '../assets/password-generator.png';
+import dayScheduler from '../assets/day-scheduler.png';
+import projectRecipe from '../assets/project-recipe.png';
+import svgLogo from '../assets/SVG-logo-generator-demo.gif'
+import projectTravel from '../assets/travel-blog.png';
+import pwaTextEditor from '../assets/jate.png';
 
 export default function PortfolioPage() {
 
     return (
         <div>
             <div className="container">
-                <img src="../src/assets/password-generator.png" alt="Password generator" className="image"/>
+                <img src={passwordGenerator} alt="Password generator" className="image"/>
                 <div className="middle">
                     <div class="text">
                         <b>Password generator</b>
@@ -14,7 +20,7 @@ export default function PortfolioPage() {
                 </div>
             </div>
             <div className="container">
-                <img src="../src/assets/day-scheduler.png" alt="Work Day Scheduler" className="image"/>
+                <img src={dayScheduler} alt="Work Day Scheduler" className="image"/>
                 <div className="middle">
                 <div class="text">
                         <b>Work Day Scheduler</b>
@@ -23,7 +29,7 @@ export default function PortfolioPage() {
                 </div>
             </div>
             <div className="container">
-                <img src="../src/assets/project-recipe.png" alt="Recipe Translator Group Project" className="image"/>
+                <img src={projectRecipe} alt="Recipe Translator Group Project" className="image"/>
                 <div className="middle">
                 <div class="text">
                         <b>Recipe Translator Group Project</b>
@@ -32,7 +38,7 @@ export default function PortfolioPage() {
                 </div>
             </div>
             <div className="container">
-                <img src="../src/assets/SVG-logo-generator-demo.gif" alt="SVG Logo Maker" className="image"/>
+                <img src={svgLogo} alt="SVG Logo Maker" className="image"/>
                 <div className="middle">
                 <div class="text">
                         <b>SVG Logo Maker</b>
@@ -41,7 +47,7 @@ export default function PortfolioPage() {
                 </div>
             </div>
             <div className="container">
-                <img src="../src/assets/travel-blog.png" alt="Travel Blog Group Project" className="image"/>
+                <img src={projectTravel} alt="Travel Blog Group Project" className="image"/>
                 <div className="middle">
                 <div class="text">
                         <b>Travel Blog Group Project</b>
@@ -50,7 +56,7 @@ export default function PortfolioPage() {
                 </div>
             </div>
             <div className="container">
-                <img src="../src/assets/jate.png" alt="PWA Text Editor" className="image"/>
+                <img src={pwaTextEditor} alt="PWA Text Editor" className="image"/>
                 <div className="middle">
                 <div class="text">
                         <b>PWA Text Editor</b>
