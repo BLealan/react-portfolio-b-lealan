@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
+    // state variables to be used in contact form - default content and ability to edit
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -24,7 +25,7 @@ function ContactForm() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-
+        // Check email input using helper.js validator
         if (!validateEmail(email)) {
             setErrorMessage('Email not valid');
             return;
