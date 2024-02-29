@@ -1,6 +1,6 @@
-import githubLogo from '../assets/github-mark-white.png';
-import linkedinLogo from '../assets/linkedin-logo-white.png';
-import twitterLogo from '../src/assets/twitter-logo-white.png';
+import githubLogo from '../../assets/github-mark-white.png';
+import linkedinLogo from '../../assets/linkedin-logo-white.png';
+import twitterLogo from '../../assets/twitter-logo-white.png';
 
 export default function Footer(){
 
