@@ -1,3 +1,7 @@
+import githubLogo from '../assets/github-mark-white.png';
+import linkedinLogo from '../assets/linkedin-logo-white.png';
+import twitterLogo from '../src/assets/twitter-logo-white.png';
+
 export default function Footer(){
 
     return (
@@ -6,17 +10,17 @@ export default function Footer(){
             <div className="icon-boxes">
                 <div>
                     <a href="https://github.com/BLealan" target="_blank" rel="noopener noreferrer">
-                    <img className="footer-icons" src="../../src/assets/github-mark-white.png"/>
+                    <img className="footer-icons" src={githubLogo}/>
                     </a>
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/in/ben-lealan-5a432aa0/" target="_blank" rel="noopener noreferrer">
-                    <img className="footer-icons" src="../../src/assets/linkedin-logo-white.png" href=""/>
+                    <img className="footer-icons" src={linkedinLogo} href=""/>
                     </a>
                 </div>
                 <div>
                     <a href="https://twitter.com/NotAboutOwls" target="_blank" rel="noopener noreferrer">
-                    <img className="footer-icons" src="../../src/assets/twitter-logo-white.png"/>
+                    <img className="footer-icons" src={twitterLogo}/>
                     </a>
                 </div>
             </div>
