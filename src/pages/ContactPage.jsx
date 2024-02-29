@@ -2,15 +2,10 @@ import ContactForm from '../components/UI/ContactForm';
 
 export default function ContactPage() {
     return (
-        <div>
+        <div className="blur-content">
             <div>
                 <ContactForm />
             </div>
-
-            <section id="contact">
-
-    </section>
-    
         </div>
     );
 }

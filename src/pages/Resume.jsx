@@ -1,6 +1,6 @@
 export default function ResumePage() {
     return (
-        <div>
+        <div className="blur-content">
             <p>
                 TEST RESUME CONTENT
             </p>

@@ -1,6 +1,7 @@
 # React Portfolio
 
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
+https://stackoverflow.com/questions/42803390/how-to-make-background-of-div-blurred
 
 ## Acceptance Criteria
 
